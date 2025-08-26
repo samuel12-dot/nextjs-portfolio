@@ -1,42 +1,31 @@
 import Image from "next/image"
-
-const servicesInfo = [
-    {
-        id: "01",
-        title: "Research & Planning",
-        desc: "User research, audits and plan.",
-    },
-    {
-        id: "02",
-        title: "Branding",
-        desc: "User research, audits and plan.",
-    },
-    {
-        id: "03",
-        title: "UI/UX Design",
-        desc: "User research, audits and plan.",
-    },
-    {
-        id: "04",
-        title: "Coding",
-        desc: "User research, audits and plan.",
-    }
-]
+import { servicesInfo } from "../portfolio"
 
 export default function Services() {
     return (
-        <div className="ml-40 w-full">
+        <div className="mx-40 mb-40">
 
 
-            <div className="flex gap-40 w-full bg-yellow-50">
-                <Image src={'/images/work-1.png'} width={500} height={500} alt={''} />
+            <div className="flex gap-40 w-full">
+                <div>
+                    <Image src={'/images/work-1.png'} width={500} height={500} alt={''} />
+                    <p className="max-w-md my-8">My services blend creativity and strategy to bring your vision to life, leaving a lasting impact.</p>
+                </div>
                 <div>{servicesInfo.map((section, index) => {
                     return (
                         <div key={index}>
-                            <h3>{section.id}</h3>
-                            <h5>{section.title}</h5>
-                            <p>{section.desc}</p>
-                            <div className="h-0.5 bg-[#777777]"></div>
+
+                            <div className="flex items-center gap-5">
+                                <h3 className="text-3xl">{section.id}</h3>
+
+                                <div>
+                                    <h4 className="font-black text-3xl my-4">{section.title}</h4>
+                                    <p className="font-bold text-[#777777] uppercase mb-8">{section.desc}</p>
+                                </div>
+
+                            </div>
+
+                            <div className="h-0.5 bg-[#777777] md:w-[600px]"></div>
                         </div>
                     )
                 })}</div>
