@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function page() {
+export default function Works() {
   return (
-    <div className='min-h-screen'>Works page</div>
+    <div>All works page</div>
   )
 }

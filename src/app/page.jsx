@@ -1,7 +1,7 @@
 import About from "./components/About"
 import Header from "./components/Header"
 import Services from "./components/Services"
-import Works from "./components/Works"
+import AllWorks from "./components/AllWorks"
 
 
 
@@ -11,7 +11,7 @@ export default function Home(){
       <Header name="Samuel Ayodeji"/>
       <About />
       <Services />
-      <Works />
+      <AllWorks />
     </div>
   )
 }

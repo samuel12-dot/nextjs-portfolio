@@ -6,10 +6,10 @@ export default function Services() {
         <div className="mx-40 mb-40">
 
 
-            <div className="flex gap-40 w-full">
+            <div className="flex flex-col xl:flex-row gap-40 w-full">
                 <div>
                     <Image src={'/images/work-1.png'} width={500} height={500} alt={''} />
-                    <p className="max-w-md my-8">My services blend creativity and strategy to bring your vision to life, leaving a lasting impact.</p>
+                    <p className="max-w-md p">My services blend creativity and strategy to bring your vision to life, leaving a lasting impact.</p>
                 </div>
                 <div>{servicesInfo.map((section, index) => {
                     return (
@@ -20,7 +20,7 @@ export default function Services() {
 
                                 <div>
                                     <h4 className="font-black text-3xl my-4">{section.title}</h4>
-                                    <p className="font-bold text-[#777777] uppercase mb-8">{section.desc}</p>
+                                    <p className="font-bold p uppercase mb-8">{section.desc}</p>
                                 </div>
 
                             </div>

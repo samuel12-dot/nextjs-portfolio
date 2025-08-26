@@ -90,4 +90,43 @@ const servicesInfo = [
     }
 ]
 
-export { footerData, servicesInfo }
+const workData = [
+    {
+        name: "Logo Design",
+        year: "2024",
+        description: "We invite you to explore our world of design, where each project is a harmonious blend of form and art.",
+        category: "design",
+        service: "ui/ux design",
+        path: "/",
+        image: "thumbnail1"
+    },
+    {
+        name: "Website UI Design",
+        year: "2024",
+        description: "We invite you to explore our world of design, where each project is a harmonious blend of form and art.",
+        category: "design",
+        service: "ui/ux design",
+        path: "/",
+        image: "thumbnail2"
+    },
+    {
+        name: "Brand Identity Design",
+        year: "2024",
+        description: "We invite you to explore our world of design, where each project is a harmonious blend of form and art.",
+        category: "design",
+        service: "ui/ux design",
+        path: "/",
+        image: "thumbnail3"
+    },
+    {
+        name: "UX Research",
+        year: "2024",
+        description: "We invite you to explore our world of design, where each project is a harmonious blend of form and art.",
+        category: "design",
+        service: "ui/ux design",
+        path: "/",
+        image: "thumbnail4"
+    }
+]
+
+export { footerData, servicesInfo, workData }
