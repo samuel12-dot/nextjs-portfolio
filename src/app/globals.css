@@ -31,7 +31,10 @@ body {
   .h2 {
     @apply text-4xl font-bold capitalize my-5
   }
-  p {
+  .p {
     @apply my-5
+  }
+  .container {
+    @apply px-40
   }
 }
