@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function Footer() {
     return (
-        <footer className='mx-40 mt-20'>
+        <footer className='px-40 pt-20 bg-[#E7C285] text-black'>
             <div className='flex items-start'>
                 <Image src={'/images/logo.svg'} width={150} height={150} alt={''}/>
 
@@ -34,8 +34,8 @@ export default function Footer() {
 
                 </div>
             </div>
-            <div className='mb-10'>
-                <p>&copy;The samuel ayodeji. All rights reserved</p>
+            <div>
+                <p>&copy; The samuel ayodeji. All rights reserved</p>
             </div>
         </footer>
     )

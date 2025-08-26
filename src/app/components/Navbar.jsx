@@ -9,7 +9,7 @@ export default function Navbar() {
                     <li>
                         <Link href="/" className="text-[#E7C285]">Home</Link>
                     </li>
-                    <li className="hover:text-orange-300 active:text-orange-300">
+                    <li className="hover:text-[#E7C285] focus:text-[#E7C285]">
                         <Link href="/about">About</Link>
                     </li>
                     <li>
@@ -25,7 +25,7 @@ export default function Navbar() {
 
                 <div className="flex items-center gap-10">
                     <li>
-                        <Link href="/blog">Blog</Link>
+                        <Link href="/blogs">Blog</Link>
                     </li>
                     <li>
                         <Link href="/contact">Contact</Link>
