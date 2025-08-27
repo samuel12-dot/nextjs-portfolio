@@ -11,10 +11,10 @@ import { IoIosArrowDown } from "react-icons/io";
 export default function Header({ name }) {
     return (
         <header className="mx-40 mb-40">
-            <h1 className="text-8xl tracking-widest uppercase text-center font-bold my-28">{name}</h1>
+            <h1 className="h1">{name}</h1>
             <div className="flex items-start gap-16 mt-16">
                 <div className="h-[1px] w-[500px] bg-amber-50"></div>
-                <p className="max-w-[650px]">Skilled frontend developer based in Lagos blending clean code with creative design. Building seamless, responsive interfaces that deliver engaging user experiences and lasting impact."</p>
+                <p className="max-w-[650px] p">Skilled frontend developer based in Lagos blending clean code with creative design. Building seamless, responsive interfaces that deliver engaging user experiences and lasting impact."</p>
             </div>
 
             <div className="flex items-center mt-10">

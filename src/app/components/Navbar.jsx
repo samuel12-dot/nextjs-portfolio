@@ -4,7 +4,8 @@ import Image from "next/image"
 export default function Navbar() {
     return (
         <nav className="mx-40 py-8 text-lg">
-            <ul className="flex items-center justify-between font-bold">
+
+            <ul className="hidden md:flex items-center justify-between font-bold">
                 <div className="flex items-center gap-10">
                     <li>
                         <Link href="/" className="text-[#E7C285]">Home</Link>
