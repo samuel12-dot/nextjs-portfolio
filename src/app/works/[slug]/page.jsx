@@ -8,7 +8,7 @@ export default async function WorkDetailsPage({params}) {
 
     const workInfo = workData.find(work => work.name.toLowerCase().replace(/\s+/g, '-') === slug)
 
-    const src = workInfo.image
+    const src = workInfo.name
   return (
     <div className='min-h-screen'>
         <Image src={`/images/${src}.png`} width={500} height={500} alt={workInfo.name}/>

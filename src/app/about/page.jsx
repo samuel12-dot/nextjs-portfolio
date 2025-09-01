@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function page() {
+export default function About() {
   return (
-    <div className='min-h-screen'>About page</div>
+    <div className='min-h-screen container'>About page</div>
   )
 }

@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function page() {
   return (
-    <div className='min-h-screen'>Blog page</div>
+    <div className='min-h-screen container'>Blog page</div>
   )
 }
