@@ -8,6 +8,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { experiences } from '../portfolio';
 import Experiences from '../components/Experiences'
+import Skills from '../components/Skills';
 
 export default function About() {
   return (
@@ -52,8 +53,9 @@ export default function About() {
 
       <h3 className="h3">My<br /><span className='text-[#E7C285]'>Experiences.</span></h3>
 
-      
+
       <Experiences />
+      <Skills />
 
 
 

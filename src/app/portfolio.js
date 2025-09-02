@@ -325,28 +325,28 @@ const experiences = [
 const skills = [
     {
         name: "HTML",
-        image: "Volts by Univelcity"
+        src: "/images/skills/html.png"
     },
     {
         name: "CSS",
-        image: "Univelcity"
+        src: "/images/skills/css.png"
     },
     {
-        name: "JavaScript",
-        image: ""
+        name: "JAVASCRIPT",
+        src: "/images/skills/javascript.png"
     },
     {
-        name: "Tailwind",
-        image: "Univelcity"
+        name: "TAILWIND CSS",
+        src: "/images/skills/tailwindcss.png"
     },
     {
-        name: "React",
-        image: "Univelcity"
+        name: "REACT",
+        src: "/images/skills/html.png"
     },
     {
-        name: "Next.JS",
-        image: "Univelcity"
+        name: "NEXT.JS",
+        src: "/images/skills/html.png"
     },
 ]
 
-export { footerData, servicesInfo, workData, experiences }
+export { footerData, servicesInfo, workData, experiences, skills }
