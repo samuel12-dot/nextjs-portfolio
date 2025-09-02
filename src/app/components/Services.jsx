@@ -3,7 +3,7 @@ import { servicesInfo } from "../portfolio"
 
 export default function Services() {
     return (
-        <div className="mx-40 mb-40">
+        <div className="mx-48 mb-40">
 
 
             <div className="flex flex-col xl:flex-row gap-40 w-full">

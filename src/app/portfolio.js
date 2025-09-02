@@ -341,12 +341,36 @@ const skills = [
     },
     {
         name: "REACT",
-        src: "/images/skills/html.png"
+        src: "/images/skills/react.png"
     },
     {
         name: "NEXT.JS",
-        src: "/images/skills/html.png"
+        src: "/images/skills/nextjs.png"
     },
 ]
 
-export { footerData, servicesInfo, workData, experiences, skills }
+const awards = [
+    {
+        title: "Software Engineering Intern",
+        year: "2025",
+        name: "Behance",
+    },
+    {
+        title: "Product Design Trainee",
+        year: "2025",
+        name: "Univelcity"
+    },
+    {
+        title: "Product Design Trainee",
+        year: "2025",
+        name: "Univelcity"
+    },
+    {
+        title: "Product Design Trainee",
+        year: "2025",
+        name: "Volts by Univelcity"
+    }
+
+]
+
+export { footerData, servicesInfo, workData, experiences, skills, awards }

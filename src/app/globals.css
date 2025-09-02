@@ -35,10 +35,10 @@ body {
     @apply text-5xl font-bold capitalize my-5 leading-16
   }
   .h3 {
-    @apply text-4xl font-bold capitalize my-5 leading-12
+    @apply text-4xl font-bold capitalize my-5 leading-8
   }
   .h5 {
-    @apply text-2xl font-semibold capitalize my-4 leading-8
+    @apply text-2xl font-semibold capitalize my-4 leading-6
   }
   .h6 {
     @apply text-xl font-medium capitalize my-2 leading-4 text-[#777777]
@@ -47,6 +47,6 @@ body {
     @apply my-5 text-[#777777] text-xl
   }
   .container {
-    @apply px-40
+    @apply px-48
   }
 }

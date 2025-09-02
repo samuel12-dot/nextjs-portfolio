@@ -1,9 +1,13 @@
 import React from 'react'
 import { experiences } from '../portfolio'
+import Title from './Title'
 
 export default function Experiences() {
     return (
-        <div>
+        <section className="my-32">
+            <Title text="My" />
+            <Title text="Experiences" color="text-[#E7C285]" />
+
             <div>{experiences.map((section, index) => (
 
                 <section key={index}>
@@ -29,6 +33,6 @@ export default function Experiences() {
                 //Awards and Recognitions
 
             ))}</div>
-        </div>
+        </section>
     )
 }

@@ -9,10 +9,12 @@ import Image from 'next/image';
 import { experiences } from '../portfolio';
 import Experiences from '../components/Experiences'
 import Skills from '../components/Skills';
+import Title from '../components/Title';
+import Awards from '../components/Awards';
 
 export default function About() {
   return (
-    <section className='min-h-screen mx-40 mt-20'>
+    <section className='min-h-screen mx-48 my-32'>
 
       <div className='flex justify-between items-start'>
 
@@ -51,11 +53,12 @@ export default function About() {
 
       <div className='w-[1200px] h-[600px] bg-[#E7C285] mt-20 mx-auto rounded-lg'></div>
 
-      <h3 className="h3">My<br /><span className='text-[#E7C285]'>Experiences.</span></h3>
-
-
       <Experiences />
+
       <Skills />
+
+      <Awards />
+
 
 
 

@@ -7,7 +7,7 @@ import { footerData } from '../portfolio'
 
 export default function Footer() {
     return (
-        <footer className='pl-40 py-10 bg-[#E7C285] text-black'>
+        <footer className='pl-48 py-10 bg-[#E7C285] text-black'>
 
             <div className='flex items-start justify-between'>
                 <Image src={'/images/dark-logo.svg'} width={150} height={150} alt={''} className='mr-40'/>
