@@ -294,4 +294,59 @@ const works = [
     }
 ]
 
-export { footerData, servicesInfo, workData }
+const experiences = [
+    {
+        title: "Software Engineering Intern",
+        company: "Volts by Univelcity",
+        startDate: "July 7th",
+        endDate: "Present",
+    },
+    {
+        title: "Product Design Trainee",
+        company: "Univelcity",
+        startDate: "July 2023",
+        endDate: "Sept 2023"
+    },
+    {
+        title: "Product Design Trainee",
+        company: "Univelcity",
+        startDate: "July 2023",
+        endDate: "Sept 2023"
+    },
+    {
+        title: "Product Design Trainee",
+        company: "Univelcity",
+        startDate: "July 2023",
+        endDate: "Sept 2023"
+    }
+
+]
+
+const skills = [
+    {
+        name: "HTML",
+        image: "Volts by Univelcity"
+    },
+    {
+        name: "CSS",
+        image: "Univelcity"
+    },
+    {
+        name: "JavaScript",
+        image: ""
+    },
+    {
+        name: "Tailwind",
+        image: "Univelcity"
+    },
+    {
+        name: "React",
+        image: "Univelcity"
+    },
+    {
+        name: "Next.JS",
+        image: "Univelcity"
+    },
+]
+
+export { footerData, servicesInfo, workData, experiences }

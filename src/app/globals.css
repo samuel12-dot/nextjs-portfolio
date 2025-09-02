@@ -32,7 +32,16 @@ body {
     @apply text-9xl tracking-widest uppercase text-center font-bold my-28
   }
   .h2 {
-    @apply text-5xl font-bold capitalize my-5 leading-12
+    @apply text-5xl font-bold capitalize my-5 leading-16
+  }
+  .h3 {
+    @apply text-4xl font-bold capitalize my-5 leading-12
+  }
+  .h5 {
+    @apply text-2xl font-semibold capitalize my-4 leading-8
+  }
+  .h6 {
+    @apply text-xl font-medium capitalize my-2 leading-4 text-[#777777]
   }
   .p {
     @apply my-5 text-[#777777] text-xl
