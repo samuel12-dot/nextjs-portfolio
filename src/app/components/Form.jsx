@@ -1,7 +1,12 @@
 import React from 'react'
+import LabelData from './LabelData'
+import InputData from './InputData'
 
 export default function Form() {
   return (
-    <div>Form</div>
+    <form>
+        <LabelData />
+        <InputData />
+    </form>
   )
 }
