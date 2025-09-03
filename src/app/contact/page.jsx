@@ -4,9 +4,9 @@ import Form from '../components/Form'
 
 export default function Contact() {
   return (
-    <section className='min-h-screen mx-48'>
+    <section className='min-h-screen mx-10 md:mx-48'>
 
-      <div className='flex items-end justify-between'>
+      <div className='flex flex-col md:flex-row items-end justify-between'>
 
         <div className=''>
           <DescriptionText text="contact me" />
