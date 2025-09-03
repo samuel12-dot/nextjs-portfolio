@@ -43,7 +43,7 @@ body {
     @apply text-xl font-medium my-2 leading-4 text-[#777777]
   }
   .p {
-    @apply my-5 text-[#777777] text-xl
+    @apply my-2 text-[#777777] text-xl
   }
   .container {
     @apply mx-48

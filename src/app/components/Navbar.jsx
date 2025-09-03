@@ -26,9 +26,6 @@ export default function Navbar() {
 
                 <div className="flex items-center gap-10">
                     <li>
-                        <Link href="/blogs">Blog</Link>
-                    </li>
-                    <li>
                         <Link href="/contact">Contact</Link>
                     </li>
                 </div>

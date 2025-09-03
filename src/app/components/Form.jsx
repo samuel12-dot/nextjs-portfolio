@@ -1,6 +1,8 @@
 import React from 'react'
 import LabelData from './LabelData'
 import InputData from './InputData'
+import InputText from './InputText'
+import FormButton from './FormButton'
 
 export default function Form() {
     return (
@@ -25,6 +27,12 @@ export default function Form() {
                 <LabelData name="Your Budget" />
                 <InputData type="budget" id="budget" placeholder="Enter your budget here" />
             </div>
+
+            <div>
+                <LabelData name="What's in your mind" />
+                <InputText placeholder="Enter project brief" />
+            </div>
+            <FormButton text="send"/>
 
         </form>
     )
