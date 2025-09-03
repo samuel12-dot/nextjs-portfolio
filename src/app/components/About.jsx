@@ -3,8 +3,8 @@ import InactiveButton from "./InactiveButton"
 
 export default function About() {
     return (
-        <div className="md:px-16 2xl:pl-48 mb-40">
-            <div className="flex flex-col xl:flex-row items-center gap-40">
+        <div className="px-8 md:px-16 2xl:pl-48 mb-40">
+            <div className="flex flex-col sm:flex-col 2xl:flex-row items-center gap-40">
                 <Image src={'/images/user-1.png'} width={500} height={500} alt={''} className="rounded-md"/>
                 <div>
                     <h2 className="h2">Crafting experiences that<br/><span className="text-[#E7C285]">Engage</span> and <span className="text-[#E7C285]">Inspire</span>.</h2>

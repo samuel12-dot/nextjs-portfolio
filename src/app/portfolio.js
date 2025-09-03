@@ -1,3 +1,8 @@
+import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+
+
 const footerData = [
     {
         title: "Sitemap",
@@ -279,7 +284,22 @@ const statsData = [
         endCountText: "+",
         text: "Winning Awards"
     }
-    
+
 ]
 
-export { footerData, servicesInfo, workData, experiences, skills, awards, statsData }
+const socials = [
+    {
+        icon: <FaGithub />,
+        href: "https://github.com/samuel12-dot"
+    },
+    {
+        icon: <FaLinkedin />,
+        href: "https://github.com/samuel12-dot"
+    },
+    {
+        icon: <FaFacebook />,
+        href: ""
+    }
+]
+
+export { footerData, servicesInfo, workData, experiences, skills, awards, statsData, socials }
