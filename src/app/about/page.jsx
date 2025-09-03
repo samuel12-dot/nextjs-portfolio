@@ -11,6 +11,7 @@ import Experiences from '../components/Experiences'
 import Skills from '../components/Skills';
 import Title from '../components/Title';
 import Awards from '../components/Awards';
+import Stats from '../components/Stats';
 
 export default function About() {
   return (
@@ -58,6 +59,8 @@ export default function About() {
       <Skills />
 
       <Awards />
+
+      <Stats />
 
 
 

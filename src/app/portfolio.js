@@ -45,8 +45,8 @@ const footerData = [
         title: "Social",
         links: [
             {
-                name: "facebook",
-                path: "/facebook"
+                name: "Github",
+                path: "https://github.com/samuel12-dot"
             },
             {
                 name: "twitter",
@@ -58,7 +58,7 @@ const footerData = [
             },
             {
                 name: "linkedin",
-                path: "/linkedin"
+                path: "https://www.linkedin.com/in/samuel-ayodeji-3a0433246/"
             }
         ]
     }
@@ -373,4 +373,27 @@ const awards = [
 
 ]
 
-export { footerData, servicesInfo, workData, experiences, skills, awards }
+const statsData = [
+    {
+        endCountNum: 3,
+        endCountText: "+",
+        text: "Month Experience"
+    },
+    {
+        endCountNum: 10,
+        endCountText: "+",
+        text: "Project's Complete"
+    },
+    {
+        endCountNum: 16,
+        endCountText: "+",
+        text: "Winning Awards"
+    },
+    {
+        endCountNum: 16,
+        endCountText: "+",
+        text: "Winning Awards"
+    }
+]
+
+export { footerData, servicesInfo, workData, experiences, skills, awards, statsData }

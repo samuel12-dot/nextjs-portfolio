@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
 
 
-            <div>
+            <div className='mt-5'>
                 <p>&copy; The samuel ayodeji. All rights reserved</p>
             </div>
         </footer>

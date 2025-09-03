@@ -26,7 +26,6 @@ body {
   font-size: 18px;
 }
 
-
 @layer components {
   .h1 {
     @apply text-9xl tracking-widest uppercase text-center font-bold my-28
