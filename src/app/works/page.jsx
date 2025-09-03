@@ -26,7 +26,7 @@ export default function Works() {
   ))
 
   return (
-    <div className='container'>
+    <div className='mx-48'>
       <input
         type="text"
         placeholder="Search projects..."

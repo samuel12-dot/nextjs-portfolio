@@ -5,11 +5,8 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import Link from 'next/link';
-import Image from 'next/image';
-import { experiences } from '../portfolio';
 import Experiences from '../components/Experiences'
 import Skills from '../components/Skills';
-import Title from '../components/Title';
 import Awards from '../components/Awards';
 import Stats from '../components/Stats';
 
@@ -61,9 +58,6 @@ export default function About() {
       <Awards />
 
       <Stats />
-
-
-
 
 
     </section>
