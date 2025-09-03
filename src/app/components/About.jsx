@@ -3,7 +3,7 @@ import InactiveButton from "./InactiveButton"
 
 export default function About() {
     return (
-        <div className="ml-48 mb-40">
+        <div className="md:px-16 2xl:pl-48 mb-40">
             <div className="flex flex-col xl:flex-row items-center gap-40">
                 <Image src={'/images/user-1.png'} width={500} height={500} alt={''} className="rounded-md"/>
                 <div>

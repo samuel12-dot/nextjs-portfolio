@@ -12,7 +12,7 @@ import Stats from '../components/Stats';
 
 export default function About() {
   return (
-    <section className='min-h-screen mx-48 my-32'>
+    <section className='min-h-screen px-8 md:px-16 2xl:px-48 my-32'>
 
       <div className='flex justify-between items-start'>
 

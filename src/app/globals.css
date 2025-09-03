@@ -45,7 +45,4 @@ body {
   .p {
     @apply my-2 text-[#777777] text-xl
   }
-  .container {
-    @apply mx-48
-  }
 }

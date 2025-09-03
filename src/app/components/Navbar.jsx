@@ -3,10 +3,12 @@ import Image from "next/image"
 
 export default function Navbar() {
     return (
-        <nav className="mx-48 py-8 text-lg">
 
-            <ul className="hidden md:flex items-center justify-between font-bold">
-                <div className="flex items-center gap-10">
+        <section className="px-8 md:px-16 2xl:px-48 py-8">
+            <nav className="text-lg hidden md:flex items-center justify-between font-bold">
+
+
+                <ul className="flex items-center gap-10">
                     <li>
                         <Link href="/">Home</Link>
                     </li>
@@ -16,20 +18,21 @@ export default function Navbar() {
                     <li>
                         <Link href="/works">Projects</Link>
                     </li>
-                </div>
+                </ul>
 
-                <div className="">
+                <ul>
                     <li>
-                        <Link href="/"><Image src={'/images/logo.svg'} width={150} height={150} alt={''}/></Link>
+                        <Link href="/"><Image src={'/images/logo.svg'} width={150} height={150} alt={''} /></Link>
                     </li>
-                </div>
+                </ul>
 
-                <div className="flex items-center gap-10">
+                <ul className="flex items-center gap-10">
+
                     <li>
                         <Link href="/contact">Contact</Link>
                     </li>
-                </div>
-            </ul>
-        </nav>
+                </ul>
+            </nav>
+        </section>
     )
 }

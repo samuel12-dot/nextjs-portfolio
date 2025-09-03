@@ -10,7 +10,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 export default function Header({ name }) {
     return (
-        <header className="mx-48 mb-40">
+        <header className="px-8 md:px-16 2xl:px-48 mb-40">
             <h1 className="h1">{name}</h1>
             <div className="flex items-start gap-16 mt-16">
                 <div className="h-[1px] w-[500px] bg-amber-50"></div>

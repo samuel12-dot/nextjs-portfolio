@@ -20,13 +20,13 @@ export default function Works() {
   const cards = filterLists.length == 0 ? (<h1>Sorry, search item does not exist.</h1>) : filterLists.map((card, index) => (
     <section key={index}>
       <Link href={`/works/${card.name.toLowerCase().replace(/\s+/g, '-')}`} className='cursor-pointer'>
-        <WorkCard src={card.image} title={card.name} desc={card.description} year={card.year} />
+        <WorkCard src={card.image} title={card.name} desc={card.description} year={card.year} cat={card.category} />
       </Link>
     </section>
   ))
 
   return (
-    <div className='mx-48'>
+    <div className='px-8 md:px-16 2xl:px-48'>
       <input
         type="text"
         placeholder="Search projects..."
