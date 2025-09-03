@@ -47,6 +47,6 @@ body {
     @apply my-5 text-[#777777] text-xl
   }
   .container {
-    @apply px-48
+    @apply mx-48
   }
 }

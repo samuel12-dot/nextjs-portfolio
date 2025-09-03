@@ -32,11 +32,11 @@ export default function Works() {
         placeholder="Search projects..."
         value={searchProject}
         onChange={filterSearch}
-        className="w-1/2 block mx-auto p-2 mb-6 border border-gray-300 rounded-lg"
+        className="w-1/2 block mx-auto p-2 my-14 border border-gray-300 rounded-lg"
       />
 
       {/* Projects Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {cards}
       </div>
     </div>

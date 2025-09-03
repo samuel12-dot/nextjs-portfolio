@@ -8,9 +8,9 @@ export default function Navbar() {
             <ul className="hidden md:flex items-center justify-between font-bold">
                 <div className="flex items-center gap-10">
                     <li>
-                        <Link href="/" className="text-[#E7C285]">Home</Link>
+                        <Link href="/">Home</Link>
                     </li>
-                    <li className="hover:text-[#E7C285] focus:text-[#E7C285]">
+                    <li className="hover:text-[#E7C285]">
                         <Link href="/about">About</Link>
                     </li>
                     <li>
