@@ -5,8 +5,7 @@ export default function Navbar() {
     return (
 
         <section className="px-8 md:px-16 2xl:px-48 py-8">
-            <nav className="text-lg hidden md:flex items-center justify-between font-bold">
-
+            <nav className="text-lg hidden sm:hidden md:flex items-center justify-between font-bold">
 
                 <ul className="flex items-center gap-10">
                     <li>

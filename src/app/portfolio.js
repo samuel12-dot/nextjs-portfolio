@@ -153,7 +153,7 @@ const workData = [
         description: "Display and generate random quotes with simple styling.",
         category: "JavaScript",
         type: "DOM & Logic",
-        image: "thumbnail1"
+        image: "random quote generator"
     },
     {
         name: "Memory Game (Matching Pairs)",

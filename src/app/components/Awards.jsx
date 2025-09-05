@@ -7,7 +7,7 @@ export default function Awards() {
     return (
         <section className='my-32'>
 
-            <div className='flex items-start justify-between gap-20'>
+            <div className='flex flex-col sm:flex-row items-start justify-between gap-20'>
 
                 <div>
                     <Title text="Awards &" color="text-white" />

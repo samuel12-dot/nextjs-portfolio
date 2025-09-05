@@ -10,7 +10,7 @@ export default async function WorkDetailsPage({params}) {
 
     const src = workInfo.name
   return (
-    <div className='min-h-screen'>
+    <div className='min-h-screen px-8 md:px-16 2xl:px-48'>
         <Image src={`/images/${src}.png`} width={500} height={500} alt={workInfo.name}/>
         <h1>{workInfo.name}</h1>
     </div>

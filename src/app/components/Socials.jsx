@@ -7,7 +7,7 @@ export default function Socials() {
     <div>
         {socials.map((item, index) => (
             <ul key={index}>
-                <li>
+                <li className='text-xl'>
                     <Link href={item.href}>{item.icon}</Link>
                 </li>
             </ul>

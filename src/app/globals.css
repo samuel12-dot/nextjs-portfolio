@@ -28,10 +28,10 @@ body {
 
 @layer components {
   .h1 {
-    @apply text-9xl tracking-widest uppercase text-center font-bold my-28
+    @apply text-5xl sm:text-4xl md:text-5xl text-nowrap tracking-widest uppercase text-center font-bold my-28
   }
   .h2 {
-    @apply text-5xl font-bold my-5 leading-16
+    @apply text-3xl leading-10 text-center sm:text-left sm:text-5xl font-bold my-5 sm:leading-16
   }
   .h3 {
     @apply text-4xl font-bold my-4 leading-8

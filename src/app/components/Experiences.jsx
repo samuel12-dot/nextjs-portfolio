@@ -12,7 +12,7 @@ export default function Experiences() {
 
                 <section key={index}>
 
-                    <div className='flex items-center justify-between'>
+                    <div className='flex flex-col items-start  sm:flex-row sm:items-center justify-between'>
 
                         <div>
                             <h5 className='h5'>{section.title}</h5>
@@ -26,7 +26,7 @@ export default function Experiences() {
                         </div>
 
                     </div>
-                    <hr className='my-10' />
+                    <hr className='my-10 w-full' />
 
                 </section>
 
