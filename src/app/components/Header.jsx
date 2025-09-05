@@ -14,7 +14,7 @@ export default function Header({ name }) {
         <header className="px-8 md:px-16 2xl:px-48 mb-40">
             <h1 className="h1">{name}</h1>
             <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row items-start gap-16 mt-16">
-                <div className="h-[1px] w-[500px] bg-amber-50"></div>
+                <div className="h-[1px] w-full sm:max-w-[500px] bg-amber-50"></div>
                 <p className="text-wrap sm:max-w-[650px] p">Skilled frontend developer based in Lagos blending clean code with creative design. Building seamless, responsive interfaces that deliver engaging user experiences and lasting impact."</p>
             </div>
 
