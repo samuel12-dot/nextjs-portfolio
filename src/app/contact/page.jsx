@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section className='min-h-screen px-8 md:px-16 2xl:px-48 my-32'>
 
-      <div className='flex flex-col items-start sm:flex-row md:items-end justify-between'>
+      <div className='flex flex-col items-start sm:flex-row sm:gap-10 md:items-end justify-between'>
 
         <div className=''>
           <DescriptionText text="contact me" />

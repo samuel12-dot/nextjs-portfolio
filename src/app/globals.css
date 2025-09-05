@@ -31,7 +31,7 @@ body {
     @apply text-4xl sm:text-6xl md:text-6xl lg:text-8xl xl:text-9xl text-nowrap tracking-widest uppercase text-center font-bold my-28
   }
   .h2 {
-    @apply text-3xl leading-10 text-center sm:text-left sm:text-4xl md:text-5xl xl:text-6xl font-bold my-5 sm:leading-12 md:leading-16 xl:leading-20
+    @apply uppercase text-3xl leading-10 text-center sm:text-left sm:text-4xl md:text-4xl xl:text-5xl font-bold my-5 sm:leading-11 md:leading-14 xl:leading-16
   }
   .h3 {
     @apply text-4xl font-bold my-4 leading-8
