@@ -283,4 +283,4 @@ const statsData = [
 
 ]
 
-export { footerData, servicesInfo, workData, experiences, skills, awards, statsData, socials }
+export { footerData, servicesInfo, workData, experiences, skills, awards, statsData }
