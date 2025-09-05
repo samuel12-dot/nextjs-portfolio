@@ -14,16 +14,16 @@ export default function About() {
   return (
     <section className='min-h-screen px-4 sm:px-8 md:px-16 2xl:px-48 my-32'>
 
-      <div className='flex flex-col sm:flex-row justify-between items-start'>
+      <div className='flex flex-col lg:flex-row justify-between items-start lg:gap-10'>
 
 
         <div className='flex-1'>
           <DescriptionText text="about me" />
-          <h2 className="h2 text-left">Cutting-edge designer<br />for the digital era.</h2>
+          <h2 className="h2 text-left text-nowrap">Cutting-edge designer<br />for the digital era.</h2>
         </div>
 
-        <div className='max-w-[650px]'>
-          <p className="p my-6 sm:my-0">I am Ayodeji Samuel, a Lagos-based full-stack software engineer intern at volts by univelcity. My passion lies in crafting user-friendly and delightful digital experiences that deliver results.</p>
+        <div className="lg:max-w-[650px]">
+          <p className="p mb-6">I am Ayodeji Samuel, a Lagos-based full-stack software engineer intern at volts by univelcity. My passion lies in crafting user-friendly and delightful digital experiences that deliver results.</p>
 
 
           <div className='flex flex-col items-start gap-10 sm:flex-row sm:items-center sm:gap-20'>

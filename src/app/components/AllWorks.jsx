@@ -9,6 +9,6 @@ export default function AllWorks() {
     )).slice(0,6)
 
   return (
-    <div className='px-8 bg-red-300 md:px-16 2xl:px-48 grid md:grid-cols-2 xl:grid-cols-3 md:gap-5 2xl:gap-10'>{workCards}</div>
+    <div className='px-8 md:px-16 2xl:px-48 grid md:grid-cols-2 xl:grid-cols-3 md:gap-5 2xl:gap-10'>{workCards}</div>
   )
 }

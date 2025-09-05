@@ -7,15 +7,15 @@ export default function Awards() {
     return (
         <section className='my-32'>
 
-            <div className='flex flex-col sm:flex-row items-start justify-between gap-20'>
+            <div className='flex flex-col lg:flex-row items-start justify-between gap-20'>
 
                 <div>
                     <Title text="Awards &" color="text-white" />
                     <Title text="Recognition" color="text-[#E7C285]" />
-                    <p className='p max-w-lg'>Highlighting notable achievements and accolades received for outstanding work.</p>
+                    <p className='p sm:max-w-lg'>Highlighting notable achievements and accolades received for outstanding work.</p>
                 </div>
 
-                <div className='flex-1'>{awards.map((section, index) => (
+                <div className='flex-1 w-full'>{awards.map((section, index) => (
 
                     <section key={index}>
 
@@ -29,7 +29,7 @@ export default function Awards() {
                             <p>{section.name}</p>
                         </div>
 
-                        <hr className='my-10' />
+                        <hr className='my-10 w-full' />
 
                     </section>
 
