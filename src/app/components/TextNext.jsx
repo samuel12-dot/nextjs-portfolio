@@ -10,7 +10,6 @@ export default function StreamlinedExperience({text, containerStyles, textStyles
     offset: ["start end", "end start"], 
   });
 
-  // Finish animation quickly (in first 20% of scroll)
   const textX = useTransform(scrollYProgress, [0, 1], ["-100vw", "100vw"]); 
   const opacity = useTransform(scrollYProgress, [1, 0], [0, 1]);
 
