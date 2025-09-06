@@ -5,7 +5,7 @@ import Button from "./Button";
 import { IoIosArrowDown } from "react-icons/io";
 
 
-export default function Header({ name }) {
+export default function Hero({ name }) {
     return (
         <header className="px-8 md:px-16 2xl:px-48 mb-40">
             <h1 className="h1">{name}</h1>

@@ -3,9 +3,9 @@ import Title from './Title'
 import { awards } from '../portfolio'
 
 
-export default function Awards() {
+export default function Awards({styles}) {
     return (
-        <section className='my-32'>
+        <section className={`${styles} my-32`}>
 
             <div className='flex flex-col lg:flex-row items-start justify-between gap-20'>
 

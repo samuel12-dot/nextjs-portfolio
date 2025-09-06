@@ -3,9 +3,9 @@ import { skills } from '../portfolio'
 import Image from 'next/image'
 import Title from './Title'
 
-export default function Skills() {
+export default function Skills({styles}) {
     return (
-        <section className="my-32">
+        <section className={`${styles} my-32`}>
             <Title text="My" color="text-white"/>
             <Title text="Skills" color="text-[#E7C285]" />
 
