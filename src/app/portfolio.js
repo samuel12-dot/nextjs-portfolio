@@ -283,4 +283,24 @@ const statsData = [
 
 ]
 
-export { footerData, servicesInfo, workData, experiences, skills, awards, statsData }
+
+const mobileLinks = [
+    {
+        name: "home",
+        href: "/"
+    },
+    {
+        name: "about",
+        href: "/about"
+    },
+    {
+        name: "projects",
+        href: "/works"
+    },
+    {
+        name: "contact",
+        href: "/contact"
+    }
+]
+
+export { footerData, servicesInfo, workData, experiences, skills, awards, statsData, mobileLinks }

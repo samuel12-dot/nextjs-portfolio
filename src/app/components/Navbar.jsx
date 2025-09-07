@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import NavMobile from "./NavMobile"
 
 export default function Navbar() {
     return (
@@ -31,6 +32,9 @@ export default function Navbar() {
                     </li>
                 </ul>
             </nav>
+            <div className="md:hidden" >
+                <NavMobile />
+            </div>
         </section>
     )
 }
