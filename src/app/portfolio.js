@@ -286,10 +286,6 @@ const statsData = [
 
 const mobileLinks = [
     {
-        name: "home",
-        href: "/"
-    },
-    {
         name: "about",
         href: "/about"
     },

@@ -14,7 +14,9 @@ export default function NavMobile() {
     return (
         <Sheet className="" open={isOpen} onOpenChange={setIsOpen} >
             <div className="flex items-center justify-between">
-                <Image src={'/images/logo.svg'} width={150} height={150} alt={''} />
+                <Link href="/">
+                    <Image src={'/images/logo.svg'} width={150} height={150} alt={''} />
+                </Link>
                 <SheetTrigger className="text-4xl" onClick={() => setIsOpen(true)}>
                     <IoMdMenu />
                 </SheetTrigger>
@@ -23,7 +25,9 @@ export default function NavMobile() {
                 <div className="flex items-center">
                     <SheetHeader className="mt-7">
                         <SheetTitle>
-                            <Image src={'/images/logo.svg'} width={150} height={150} alt={''} />
+                            <Link href="/" onClick={() => setIsOpen(false)}>
+                                <Image src={'/images/logo.svg'} width={150} height={150} alt={''} />
+                            </Link>
                         </SheetTitle>
                         <SheetDescription className="sr-only">Navigation Menu</SheetDescription>
                         <ul className="w-full flex flex-col gap-10 justify-center text-left text-xl mt-10">
