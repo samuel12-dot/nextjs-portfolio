@@ -5,7 +5,7 @@ import WorkCard from './WorkCard'
 export default function AllWorks() {
 
     const workCards = workData.map((work, index) => (
-        <WorkCard key={index} src={work.image} title={work.name} desc={work.description} year={work.year} cat={work.category}/>
+        <WorkCard key={index} src={work.image} title={work.name} desc={work.description} year={work.year} cat={work.category} liveDemo={work.liveDemoLink} repoLink={work.repoLink} />
     )).slice(0,6)
 
   return (

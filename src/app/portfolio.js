@@ -94,54 +94,45 @@ const servicesInfo = [
 ]
 
 const workData = [
-
     {
-        name: "Weather App",
+        name: "Character Counter App",
         year: "2025",
-        description: "Fetch and display real-time weather for any city.",
+        description: "Count characters, words, and sentences in text with live updates and optional copy/export feature.",
         category: "React/Next.js",
-        type: "APIs & Data",
-        image: "weather app"
+        type: "String Manipulation & State",
+        image: "character counter",
+        liveDemoLink: "https://character-counter-blond.vercel.app/",
+        repoLink: "https://github.com/samuel12-dot/character-counter.git"
     },
     {
-        name: "Image Carousel",
+        name: "Currency Converter",
         year: "2025",
-        description: "Cycle through images with auto-slide and controls.",
-        category: "React/Next.js",
-        type: "UI & State",
-        image: "image carousel"
+        description: "Convert amounts between currencies using live exchange rates with support for swapping currencies.",
+        category: "React",
+        type: "Async & API",
+        image: "currency converter",
+        liveDemoLink: "https://currency-converter-seven-peach.vercel.app/",
+        repoLink: "https://github.com/samuel12-dot/currency-converter.git"
     },
     {
-        name: "Color Picker",
+        name: "Palindrome Checker",
         year: "2025",
-        description: "Select and copy HEX/RGB color values.",
-        category: "React/Next.js",
-        type: "UI & State",
-        image: "color picker"
-    },
-    {
-        name: "Tic tac toe game",
-        year: "2025",
-        description: "Two-player tic-tac-toe with win/draw detection.",
-        category: "React/Next.js",
-        type: "UI & State",
-        image: "tic tac toe game"
-    },
-    {
-        name: "Quiz app",
-        year: "2025",
-        description: "Multiple-choice quiz with scoring and retake option.",
-        category: "React/Next.js",
-        type: "APIs & Data",
-        image: "quiz app"
-    },
-    {
-        name: "Countdown timer",
-        year: "2025",
-        description: "Count down to a target date/time with alerts.",
+        description: "Check whether a word or phrase is a palindrome, ignoring spaces, punctuation, and case. Includes clear true/false messages with optional live validation.",
         category: "JavaScript",
-        type: "Games & Utilities",
-        image: "countdown timer"
+        type: "String Manipulation & Conditionals",
+        image: "palindrome checker",
+        liveDemoLink: "https://palindrome-checker-phi-eight.vercel.app/",
+        repoLink: "https://github.com/samuel12-dot/palindrome-checker.git"
+    },
+    {
+        name: "Tip Calculator (Extended)",
+        year: "2025",
+        description: "Split bill among people, choose preset or custom tip percentages, and calculate per-person tip and total.",
+        category: "React/Next.js",
+        type: "Events & Arithmetic",
+        image: "tip calculator",
+        liveDemoLink: "https://tip-calculator-beige-one.vercel.app/",
+        repoLink: "https://github.com/samuel12-dot/tip-calculator.git"
     },
     {
         name: "Random Quote Generator",
@@ -149,7 +140,9 @@ const workData = [
         description: "Display and generate random quotes with simple styling.",
         category: "JavaScript",
         type: "DOM & Logic",
-        image: "random quote generator"
+        image: "random quote generator",
+        liveDemoLink: "https://random-quote-generator-gamma-liard.vercel.app/",
+        repoLink: "https://github.com/samuel12-dot/random-quote-generator.git"
     },
     {
         name: "Memory Game (Matching Pairs)",
@@ -157,7 +150,9 @@ const workData = [
         description: "Flip cards to match pairs with attempt tracking.",
         category: "JavaScript",
         type: "Games & Utilities",
-        image: "thumbnail2"
+        image: "memory game (matching pairs)",
+        liveDemoLink: "https://memory-matching-game-roan.vercel.app/",
+        repoLink: "https://github.com/samuel12-dot/memory-matching-game.git"
     },
     {
         name: "Quiz app",
@@ -165,16 +160,21 @@ const workData = [
         description: "Multiple-choice quiz with scoring and retake option.",
         category: "React/Next.js",
         type: "APIs & Data",
-        image: "thumbnail3"
+        image: "quiz app",
+        liveDemoLink: "https://quiz-app-alpha-azure.vercel.app/",
+        repoLink: "https://github.com/samuel12-dot/quiz-app.git"
     },
     {
-        name: "Quiz app",
+        name: "Roman Numeral Converter",
         year: "2025",
-        description: "Multiple-choice quiz with scoring and retake option.",
-        category: "React/Next.js",
-        type: "APIs & Data",
-        image: "thumbnail3"
+        description: "Convert numbers to Roman numerals and Roman numerals back to numbers, with validation for invalid inputs.",
+        category: "JavaScript",
+        type: "Loops & Mapping",
+        image: "roman numeral converter",
+        liveDemoLink: "https://roman-numeral-converter-five.vercel.app/",
+        repoLink: "https://github.com/samuel12-dot/roman-numeral-converter.git"
     }
+
 ]
 
 const experiences = [
