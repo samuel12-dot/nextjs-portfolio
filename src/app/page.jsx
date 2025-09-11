@@ -20,8 +20,8 @@ export default function Home(){
       <AllWorks />
       <Skills styles="px-8 md:px-16 2xl:px-48"/>
       <Awards styles="px-8 md:px-16 2xl:px-48"/>
-      <Text text="Multiple-choice quiz with scoring and retake option." textStyles="mb-10 sm:text-8xl"/>
-      <TextNext text="Count down to a target date/time with alerts." textStyles="mb-10 sm:text-8xl"/>
+      <Text text="UI/UX Design, Frontend Engineering, Backend Development, API." textStyles="mb-10 sm:text-8xl"/>
+      <TextNext text="Integration, Database Management, and Project Planning" textStyles="mb-10 sm:text-8xl"/>
     </div>
   )
 }

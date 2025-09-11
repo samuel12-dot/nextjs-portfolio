@@ -11,7 +11,7 @@ export default function Hero({ name }) {
             <h1 className="h1">{name}</h1>
             <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row items-start gap-16 mt-16">
                 <div className="h-[1px] w-full sm:max-w-[500px] bg-amber-50"></div>
-                <p className="text-wrap sm:max-w-[650px] p">Skilled frontend developer based in Lagos blending clean code with creative design. Building seamless, responsive interfaces that deliver engaging user experiences and lasting impact."</p>
+                <p className="text-wrap sm:max-w-[650px] p">I&quot;m a software engineer skilled in full-stack web development, building responsive frontends with HTML, CSS, JavaScript, and React, and scalable backends with Node.js, Express.js, and MongoDB. I focus on writing clean, efficient code and creating seamless user experiences through modern web technologies.</p>
             </div>
 
             <div className="flex flex-col items-start gap-5 sm:gap-0 sm:flex-row sm:items-center mt-10">

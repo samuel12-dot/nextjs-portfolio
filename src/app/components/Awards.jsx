@@ -12,7 +12,7 @@ export default function Awards({styles}) {
                 <div>
                     <Title text="Awards &" color="text-white" />
                     <Title text="Recognition" color="text-[#E7C285]" />
-                    <p className='p sm:max-w-lg'>Highlighting notable achievements and accolades received for outstanding work.</p>
+                    <p className='p sm:max-w-lg'>Highlighting notable achievements and milestones in my journey as a developer.</p>
                 </div>
 
                 <div className='flex-1 w-full'>{awards.map((section, index) => (
