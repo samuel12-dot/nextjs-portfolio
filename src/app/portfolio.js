@@ -103,11 +103,11 @@ const workData = [
         image: "character counter",
         liveDemoLink: "https://character-counter-blond.vercel.app/",
         repoLink: "https://github.com/samuel12-dot/character-counter.git",
-        overview: "The Character Counter App delivers real-time analysis of any text input. Beyond simple character counting, it breaks down words and sentences with live updates, enhancing productivity for users who need accuracy an speed.",
+        overview: "The Character Counter App delivers real-time analysis of any text input. Beyond simple character counting, it breaks down words and sentences with live updates, enhancing productivity for users who need accuracy and speed.",
         overviewDescription: [
             "Live count of characters, words, and sentences",
             "Responsive interface built with React and Next.js",
-            "Optional copy and export teature for convenience"
+            "Optional copy and export feature for convenience"
         ]
     },
     {
@@ -160,8 +160,7 @@ const workData = [
             "Choose from preset or enter custom tip percentages",
             "Instant calculation of per-person tip and total"
         ]
-    }
-    ,
+    },
     {
         name: "Random Quote Generator",
         year: "2025",
@@ -178,8 +177,7 @@ const workData = [
             "Interactive button to refresh and get new quotes",
             "Minimal, clean design for distraction-free use"
         ]
-    }
-    ,
+    },
     {
         name: "Memory Game (Matching Pairs)",
         year: "2025",
@@ -230,9 +228,77 @@ const workData = [
             "Supports Roman numeral to number conversion",
             "Handles invalid inputs with error validation"
         ]
+    },
+    {
+        name: "BMI Calculator",
+        year: "2025",
+        description: "Compute BMI from height and weight inputs and display the corresponding category with validation.",
+        fullDescription: "The BMI Calculator is a JavaScript application that enables users to calculate their Body Mass Index (BMI) by entering height and weight. It determines the BMI value and categorizes the result (e.g., underweight, normal, overweight, obese). The project demonstrates knowledge of functions, state management, and controlled inputs, while also including basic validation for user-friendly and reliable results.",
+        category: "JavaScript",
+        type: "Functions & State",
+        image: "bmi calculator",
+        liveDemoLink: "https://bmi-calculator-five-chi.vercel.app/",
+        repoLink: "https://github.com/samuel12-dot/bmi-calculator.git",
+        overview: "An interactive tool that computes BMI from user inputs and shows the corresponding health category.",
+        overviewDescription: [
+            "Takes height and weight as controlled inputs",
+            "Calculates BMI and displays the category",
+            "Includes basic validation for input accuracy"
+        ]
+    },
+    {
+        name: "Simple Calculator",
+        year: "2025",
+        description: "Perform basic arithmetic operations with digits, operators, clear, and backspace functionality.",
+        fullDescription: "The Simple Calculator is a JavaScript application designed to handle fundamental arithmetic operations such as addition, subtraction, multiplication, and division. It provides users with digit and operator buttons, supports clear and backspace functionality, and allows chained operations for a smooth calculation experience. The project highlights the use of functions, conditionals, and event handling in JavaScript.",
+        category: "JavaScript",
+        type: "Functions & Event Handling",
+        image: "simple calculator",
+        liveDemoLink: "https://calculator-classwork.vercel.app/",
+        repoLink: "https://github.com/samuel12-dot/calculator_classwork.git",
+        overview: "A basic calculator app that performs arithmetic operations with user-friendly controls.",
+        overviewDescription: [
+            "Includes digit and operator buttons",
+            "Supports clear and backspace functionality",
+            "Allows chained operations for multiple calculations"
+        ]
+    },
+    {
+        name: "Random Password Generator",
+        year: "2025",
+        description: "Generate secure passwords with customizable options.",
+        fullDescription: "The Random Password Generator is a React application that lets users generate secure passwords based on selected criteria such as length, uppercase letters, numbers, and symbols. It provides instant password generation with the option to copy results to the clipboard, making it practical for everyday use while demonstrating state management, conditionals, and clipboard API handling.",
+        category: "React",
+        type: "Utilities",
+        image: "random password generator",
+        liveDemoLink: "https://random-password-generator-five-eta.vercel.app/",
+        repoLink: "https://github.com/samuel12-dot/random-password-generator.git",
+        overview: "A password generator built with React that allows customization and instant copy-to-clipboard functionality.",
+        overviewDescription: [
+            "Generate passwords with user-selected criteria",
+            "Supports length, uppercase, lowercase, numbers, and symbols",
+            "Copy generated password to clipboard with one click"
+        ]
+    },
+    {
+        name: "Color Picker",
+        year: "2025",
+        description: "Pick colors and view HEX/RGB values instantly.",
+        fullDescription: "The Color Picker is a React application that enables users to select colors and view their HEX and RGB values. It provides a simple yet effective way to explore color values while practicing controlled inputs, state handling, and DOM API interaction. Copy-to-clipboard functionality ensures quick access to chosen color values.",
+        category: "React",
+        type: "UI Tools",
+        image: "color picker",
+        liveDemoLink: "https://color-picker-fawn-chi.vercel.app/",
+        repoLink: "https://github.com/samuel12-dot/color-picker.git",
+        overview: "A React-based tool for selecting and copying color values in HEX and RGB formats.",
+        overviewDescription: [
+            "Interactive color input with real-time updates",
+            "Displays HEX and RGB values for chosen colors",
+            "One-click copy-to-clipboard functionality"
+        ]
     }
-
 ]
+
 
 const experiences = [
 

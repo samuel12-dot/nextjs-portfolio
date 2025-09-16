@@ -19,7 +19,7 @@ export default function WorkCard({ src, title, desc, year, cat, liveDemo, repoLi
             <p className='font-medium my-2 text-[#E7C285] text-left'>{cat}</p>
             <p className='p'>{desc}</p>
 
-            <div className='flex justify-between mt-5 mb-10'>
+            <div className='flex justify-between mt-5'>
 
 
                 {liveDemo && (
