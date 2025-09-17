@@ -23,9 +23,9 @@ export default function Hero({ name }) {
                 <Button text="Let's Talk" />
             </div>
             <div className="flex flex-col items-center justify-center my-20 text-3xl">
-                <IoIosArrowDown className="-mb-5" />
-                <IoIosArrowDown className="-mb-5 opacity-50" />
-                <IoIosArrowDown className="opacity-30" />
+                <IoIosArrowDown className="-mb-5 animate-bounce" />
+                <IoIosArrowDown className="-mb-5 opacity-50 animate-bounce delay-150" />
+                <IoIosArrowDown className="opacity-30 animate-bounce delay-300" />
             </div>
 
 

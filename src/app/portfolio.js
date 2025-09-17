@@ -348,6 +348,14 @@ const skills = [
         name: "NEXT.JS",
         src: "/images/skills/nextjs.png"
     },
+    {
+        name: "NODE.JS",
+        src: "/images/skills/nodejs.png"
+    },
+    {
+        name: "EXPRESS.JS",
+        src: "/images/skills/expressjs.png"
+    },
 ]
 
 const awards = [
