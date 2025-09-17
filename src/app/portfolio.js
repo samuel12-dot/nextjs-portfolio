@@ -356,6 +356,10 @@ const skills = [
         name: "EXPRESS.JS",
         src: "/images/skills/expressjs.png"
     },
+    {
+        name: "MONGO DB",
+        src: "/images/skills/mongodb.png"
+    }
 ]
 
 const awards = [
